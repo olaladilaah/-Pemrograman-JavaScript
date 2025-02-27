@@ -1,17 +1,18 @@
-# Asesmen menulis komentar di JavaScript
+# Asesmen Penggunaan JavaScript untuk Kasus Nyata: Sistem Pengelolaan Pesanan Restoran
+Anda diminta untuk membuat sebuah sistem sederhana untuk mengelola pesanan di sebuah restoran.
+Sistem ini akan menggunakan bahasa pemrograman JavaScript dan memanfaatkan berbagai konsep yang telah dipelajari.
 
-## Instruksi pengerjaan `01-writing-comments`
-Kerjakan tugas berikut untuk menyelesaikan _task_ `01-writing-comments`:
-1. Buka berkas `index.js` dan tuliskan "username" akun Dicoding Anda dalam bentuk **komentar satu baris**.
-2. Buka berkas `index.js` dan tuliskan teks di bawah ini dalam bentuk **komentar banyak baris**.
+## Fitur yang harus ada
+### Struktur Data untuk Menyimpan Data Pesanan
+- Gunakan Array dan Object untuk menyimpan data pesanan.
+- Setiap pesanan harus memiliki informasi berikut:
+  - ID Pesanan (unik) -> `id`
+  - Nama Pelanggan -> `customerName`
+  - Daftar Item yang Dipesan (Array dari objek item, setiap item memiliki nama dan harga) -> `items` -> `{ name: string, price: number }`
+  - Total Harga Pesanan -> `totalPrice`
+  - Status Pesanan (Menunggu, Diproses, Selesai) -> `status`
 
-```text
-Goal tahun ini:
-1. Belajar JavaScript.
-2. Menjadi Front-End atau Back-End Developer.
-```
-
-## Cara mengetahui username Dicoding
-1. Buka halaman pengaturan akun Dicoding dengan klik url [https://www.dicoding.com/settings/profile](https://www.dicoding.com/settings/profile).
-2. Jika belum login, silakan login dengan akun Dicoding yang Anda miliki.
-4. Anda bisa lihat pada bagian kolom Username dan menyalinnya.
+## Ketentuan
+1. Kode harus dipecah ke dalam beberapa modul JavaScript. Mohon untuk manfaatkan berkas JavaScript yang sudah tersedia.
+2. Instruksi lebih detail terdapat pada berkas JavaScript masing-masing.
+3. Tidak mengubah kode di dalam berkas `package.json`.
